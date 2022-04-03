@@ -64,7 +64,7 @@
 							"",
 							"//Assert response",
 							"pm.test(\"Weight is 4600\", function(){",
-							"    var expectedWeight = 4500;",
+							"    var expectedWeight = 4600;",
 							"    ",
 							"    var response = JSON.parse(responseBody);",
 							"    ",
