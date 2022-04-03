@@ -30,7 +30,7 @@ jobs:
     # Run the POSTMAN collection
     - name: Run POSTMAN collection
       run: |
-       newman run https://www.getpostman.com/collections/691bf332d21f238d3c54 -e ./tests/pokemonapi-env.json 
+       newman run https://www.getpostman.com/collections/691bf332d21f238d3c54 -e https://go.postman.co/workspace/Test-Postman~206cd66f-7969-4613-9980-d5584da2f534/environment/15503808-80269675-a497-4902-84b1-270fc74a65c0
        #-x -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
 
     # Upload the contents of Test Results directory to workspace
