@@ -82,9 +82,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/v22/pokemon/snorlax/",
+					"raw": "{{url2}}/v2/pokemon/snorlax/",
 					"host": [
-						"{{url}}"
+						"{{url2}}"
 					],
 					"path": [
 						"v2",
